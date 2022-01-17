@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Neonderthaw&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Neonderthaw';
+    background-color: antiquewhite;
+}
+.header{
+    text-align: center;
+    padding: 32px;
+    background: #FAEEE7;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 120%;
+}
+#gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 4px;
+}
+#gallery img{
+    width: 25%;
+    height: fit-content;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 4px 4px;
+    border-radius: 10px;
+}
+#foot{
+    color: black;
+    font-size: 150%;
+    
+}
+@media (max-width:800px) {
+    #gallery img{
+        width: 50%;
+    }
+}
+@media (max-width:600px) {
+    #gallery img{
+        width: 100%;
+    }
+}
