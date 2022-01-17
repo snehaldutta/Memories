@@ -37,13 +37,13 @@ body{
     font-size: 150%;
     
 }
-@media (max-width:800px) {
-    #gallery img{
+@media screen(max-width:800px) {
+    #gallery img,#gallery,.header{
         width: 50%;
     }
 }
-@media (max-width:600px) {
-    #gallery img{
+@media screen(max-width:600px) {
+    #gallery img,#gallery,.header{
         width: 100%;
     }
 }
