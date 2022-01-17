@@ -38,12 +38,12 @@ body{
     
 }
 @media screen(max-width:800px) {
-    #gallery img,#gallery,.header{
+    #gallery img{
         width: 50%;
     }
 }
 @media screen(max-width:600px) {
-    #gallery img,#gallery,.header{
+    #gallery img{
         width: 100%;
     }
 }
